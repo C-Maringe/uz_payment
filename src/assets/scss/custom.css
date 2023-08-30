@@ -1,0 +1,37 @@
+#rdt_TableHeader {
+    border: 10px solid black;
+}
+
+body {
+    background-color: #00147e;
+}
+
+@media only screen and (max-width: 600px) {
+    .display-none-at-less-width {
+        display: none;
+    }
+
+    .logo-custom-icon-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .logo-custom-icon-header {
+        display: none;
+    }
+}
+
+.page-NotFound-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-size: 25px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
